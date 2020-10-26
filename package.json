@@ -1,0 +1,10 @@
+{
+  "name": "zero_mq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "rsmq": "^0.12.2",
+    "zeromq": "5"
+  }
+}
