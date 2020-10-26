@@ -20,4 +20,3 @@ for request in range(100000):
     publisher.send_multipart([b"task", payload.encode('utf-8')])
     message = publisher.recv()
     print("Received reply %s" % message)
-    time.sleep(1)
