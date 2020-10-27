@@ -19,7 +19,7 @@ node rep.js // terminal#3
 python req.py // terminal#4
 ```
 
-The tasks will be evenly distributed within the consumers that connect to the same port. 
+The tasks will be evenly distributed among the consumers that connect to the same port. 
 The producer will wait for the result/response of each task before it can runs the next task. 
 
 This pattern ensure that the producer will always get result from the consumers. 
@@ -41,7 +41,7 @@ node puller.js 5151
 python pusher.py 5252
 node puller.js 5252
 ```
-The tasks produced by pusher.py will be evenly distributed within the consumers that connect to the same port. 
+The tasks produced by pusher.py will be evenly distributed among the consumers that connect to the same port. 
 The producer won't wait for any result from the consumers, after a consumer pull the task, it will push the next task immediately. 
 
 In this pattern the producer can ignore results from the consumers process, 
