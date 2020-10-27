@@ -28,7 +28,7 @@ You can try this by running the `rep-now.js` scripts instead.
 
 References: https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/devices/queue.html . 
 
-###  Demo PUSH/PULL Pattern
+### Demo PUSH/PULL Pattern
 A python producer will push tasks to its queue. 
 The nodejs consumers will pull each tasks and process it without having to return anything.
 
